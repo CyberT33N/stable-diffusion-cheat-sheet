@@ -2,9 +2,10 @@
 - Cheat Sheet with the most needed stuff..
 
 
+## WEB UI
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
-
-## Install
+### Install
 - https://rentry.org/voldy
 
 <br>
