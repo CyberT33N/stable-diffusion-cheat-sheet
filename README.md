@@ -1,6 +1,50 @@
 # Stable Diffusion Cheat Sheet
 - Cheat Sheet with the most needed stuff..
 
+<br><br>
+
+## Hardware
+
+<br><br>
+
+### Google Cloud VM
+
+#### safetensors-Modell
+Um ein .safetensors-Modell in Google Cloud zu nutzen, benötigen Sie eine VM-Instanz mit einer NVIDIA-GPU und einer entsprechenden CUDA-Version. Die genaue Konfiguration hängt jedoch von der Größe des Modells, der Größe der Daten, der Anzahl der Schritte usw. ab, die für die Ausführung des Modells erforderlich sind.
+
+Eine gute Option für die Verwendung von .safetensors-Modellen in Google Cloud ist die Verwendung einer VM-Instanz mit einer NVIDIA Tesla T4-GPU. Die Tesla T4 ist eine leistungsstarke GPU, die speziell für Machine-Learning-Aufgaben entwickelt wurde und eine gute Wahl für die Beschleunigung von Deep-Learning-Workloads darstellt. Die T4 ist auch eine relativ kosteneffektive Option und bietet ein gutes Verhältnis von Preis zu Leistung.
+
+In Bezug auf die VM-Instanztypen bietet Google Cloud eine Vielzahl von Optionen, darunter die N1- und C2-Serie. Für kleinere Modelle können Sie eine Instanz der N1-Serie in Betracht ziehen, die über eine NVIDIA T4-GPU verfügt. Für größere Modelle oder wenn Sie eine höhere Leistung benötigen, können Sie eine Instanz der C2-Serie in Betracht ziehen, die über eine NVIDIA A100-GPU verfügt.
+
+Beachten Sie jedoch, dass diese GPU-beschleunigten Instanzen höhere Preise als Standard-VMs haben können. Sie sollten die Preise sorgfältig überprüfen, um sicherzustellen, dass Sie die geeignete Größe der Instanz für Ihr Budget auswählen.
+
+In Bezug auf die CUDA-Version sollten Sie sicherstellen, dass die auf Ihrer VM-Instanz installierte CUDA-Version mit der CUDA-Version kompatibel ist, auf der das .safetensors-Modell trainiert wurde. Sie können dies tun, indem Sie die Dokumentation des Modells überprüfen oder den Entwickler des Modells kontaktieren, um die entsprechende CUDA-Version zu erfahren.
+
+Eine gängige Option für die Verwendung von NVIDIA-Tesla-GPUs in Google Cloud ist die Verwendung von Deep Learning VMs, die speziell für Machine-Learning-Workloads optimiert sind und die erforderlichen Softwarekomponenten vorinstalliert haben, einschließlich TensorFlow, PyTorch und anderen Bibliotheken. Sie können eine Deep Learning VM mit einer Tesla T4-GPU oder einer A100-GPU auswählen und die Größe der Instanz an Ihre Anforderungen anpassen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+
+<br><br>
+<br><br>
+
+
 
 ## WEB UI
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
