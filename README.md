@@ -37,17 +37,43 @@ Eine gängige Option für die Verwendung von NVIDIA-Tesla-GPUs in Google Cloud i
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+
+<br><br>
+<br><br>
+
+
+
 # Install
 
-<br><br>
-
-
-## CUDA
 
 <br><br>
 
 
-### Ubuntu
+## Dependencies
+
+<br><br>
+
+
+#### Ubuntu
 1. Make sure that you use the latest driver for your graphiccard
 
 You can find a list of nvidia driver here and check there if your graphiccard is supported
@@ -55,7 +81,7 @@ https://wiki.ubuntuusers.de/Grafikkarten/Nvidia/nvidia/
 
 <br><br>
 
-#### Gtx 1050 ti
+##### Gtx 1050 ti
 ```
 sudo apt-get purge 'nvidia*'
 sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -85,6 +111,9 @@ source ~/.bashrc
 nvcc --version
 ```
 
+### Miniconda
+- https://docs.conda.io/en/latest/miniconda.html
+ - https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 
 
@@ -110,6 +139,27 @@ __________________________________________________________
 
 ## WEB UI
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+<br><br>
+
+## Guides
+
+<br><br>
+
+### Definition of settings
+
+<br><br>
+
+#### Seeds
+- In der Welt der künstlichen Intelligenz und des maschinellen Lernens wird oft eine Pseudozufallszahl als "Seed" bezeichnet. Ein Seed ist ein Startwert für den Zufallszahlengenerator, der bei der Initialisierung des Modells verwendet wird.
+
+In der stable-diffusion-webui-Implementierung kann die Option "Seed" verwendet werden, um den Seed für den Zufallszahlengenerator festzulegen. Wenn Sie einen bestimmten Seed angeben, wird das Modell bei jedem Start mit demselben Satz von Zufallszahlen initialisiert. Dies kann nützlich sein, wenn Sie die Ergebnisse replizieren oder reproduzieren möchten.
+
+In Ihrem Beispiel "3174003042" ist "3174003042" der Seed-Wert, der für den Zufallszahlengenerator verwendet wird. Wenn Sie denselben Seed-Wert bei jedem Start von stable-diffusion-webui verwenden, sollten Sie dieselben Ergebnisse erhalten, vorausgesetzt, dass alle anderen Einstellungen und Parameter gleich sind.
+
+Es ist jedoch wichtig zu beachten, dass der Seed-Wert nicht unbedingt die Qualität oder die Eigenschaften der erzeugten Bilder beeinflusst, sondern nur den Startzustand des Zufallszahlengenerators definiert.
+
+<br><br>
 
 ### Install
 - https://rentry.org/voldy
