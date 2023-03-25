@@ -1,4 +1,4 @@
-# Stable Diffusion
+# Stable Diffusion Cheat Sheet
 - Cheat Sheet with the most needed stuff..
 
 
@@ -55,9 +55,18 @@ And you're done!
 
 ## Models
 
+
+### Download
+- https://civitai.com
+
 <br><br>
 
-### -Deliberate-
+### Realistic Vision V1.3
+- https://civitai.com/models/4201/realistic-vision-v13
+
+<br><br>
+
+#### -Deliberate-
 - https://civitai.com/api/download/models/5616
   - Powerful All-purpose Model, Stylized Art & Realism Focus
   
@@ -69,13 +78,13 @@ And you're done!
 
 <br><br>
 
-### -AOM3-
+#### -AOM3-
 - https://civitai.com/api/download/models/11811
   - A fan favorite anime model mix, highly versatile
 
 <br><br>
 
 
-### -WaifuDiffusion-
+#### -WaifuDiffusion-
 - https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/wd-1-4-anime_e2.ckpt
   - 	A model trained on heaps of Danbooru images
