@@ -36,6 +36,55 @@ Eine gängige Option für die Verwendung von NVIDIA-Tesla-GPUs in Google Cloud i
 
 
 
+
+# Install
+
+<br><br>
+
+
+## CUDA
+
+<br><br>
+
+
+### Ubuntu
+1. Make sure that you use the latest driver for your graphiccard
+
+You can find a list of nvidia driver here and check there if your graphiccard is supported
+https://wiki.ubuntuusers.de/Grafikkarten/Nvidia/nvidia/
+
+
+#### Gtx 1050 ti
+```
+sudo apt-get purge 'nvidia*'
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-driver-525 nvidia-settings
+reboot
+```
+
+2. Install CUDA
+```
+sudo apt-get install cuda
+reboot
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________
