@@ -127,6 +127,12 @@ nvcc --version
 
 
 
+
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________
@@ -158,6 +164,19 @@ In der stable-diffusion-webui-Implementierung kann die Option "Seed" verwendet w
 In Ihrem Beispiel "3174003042" ist "3174003042" der Seed-Wert, der für den Zufallszahlengenerator verwendet wird. Wenn Sie denselben Seed-Wert bei jedem Start von stable-diffusion-webui verwenden, sollten Sie dieselben Ergebnisse erhalten, vorausgesetzt, dass alle anderen Einstellungen und Parameter gleich sind.
 
 Es ist jedoch wichtig zu beachten, dass der Seed-Wert nicht unbedingt die Qualität oder die Eigenschaften der erzeugten Bilder beeinflusst, sondern nur den Startzustand des Zufallszahlengenerators definiert.
+
+
+
+
+
+
+
+## Good 2 know
+- The widht and height will render different kind of images. E.g. if the resolution is higher you see the full body
+
+
+
+
 
 
 
