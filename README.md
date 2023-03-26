@@ -76,7 +76,11 @@ python relauncher.py
 
 
 
-
+### Troubleshooting
+- If error comes with modulenotfound
+```
+pip install diffusers discord_webhook
+```
 
 
 
