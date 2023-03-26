@@ -42,6 +42,52 @@ Eine gängige Option für die Verwendung von NVIDIA-Tesla-GPUs in Google Cloud i
 
 
 
+<br><br>
+<br><br>
+__________________________________________________________
+__________________________________________________________
+
+<br><br>
+<br><br>
+
+## runpod.io
+- https://youtu.be/QN1vdGhjcRc?t=1006
+- **Not deleted Bots will use aswel credit even if offline**
+
+1. Register
+2. Add credit e.g. 10USD$
+3. Choose 1 x RTX A5000 and click "Deploy"
+4. 5GB Temporary Disk & 100GB Persistent
+5. - Make sure to check Jupyter Notebook 
+6. Click Deploy
+7. Wait until pod is ready and you can click connect under:
+  - https://www.runpod.io/console/pods
+8. Edit webui-user.sh
+```shell
+export COMMANDLINE_ARGS="--port 3010 --xformers --listen --enable-insecure-extension-access --share --api"
+```
+9. Kill all terminals and then run:
+```
+python relauncher.py
+```
+10. The public url for your pod for the webui will stay in the logs at the end
+11. You can set aswell a password with command line args specified in docs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
