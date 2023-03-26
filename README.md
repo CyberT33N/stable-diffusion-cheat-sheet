@@ -159,6 +159,9 @@ In Ihrem Beispiel "3174003042" ist "3174003042" der Seed-Wert, der für den Zufa
 
 Es ist jedoch wichtig zu beachten, dass der Seed-Wert nicht unbedingt die Qualität oder die Eigenschaften der erzeugten Bilder beeinflusst, sondern nur den Startzustand des Zufallszahlengenerators definiert.
 
+
+
+<br><br>
 <br><br>
 
 ### Install
@@ -257,3 +260,63 @@ And you're done!
 #### -WaifuDiffusion-
 - https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/wd-1-4-anime_e2.ckpt
   - 	A model trained on heaps of Danbooru images
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+## API
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/API
+
+<br><br>
+
+1. Add to webui-user.sh:
+```shell
+export COMMANDLINE_ARGS="--api --xformers"
+```
+
+<br><br>
+
+2. Start
+```shell
+bash webui.sh
+```
+
+<br><br>
+
+3. Send Request
+```javascript
+var axios = require('axios');
+var data = JSON.stringify({
+  "prompt": "puppy dog",
+  "steps": 5
+});
+
+var config = {
+  method: 'post',
+  url: 'http://127.0.0.1:7860/sdapi/v1/txt2img',
+  headers: { 
+    'Content-Type': 'application/json'
+  },
+  data : data
+};
+
+axios(config)
+.then(function (response) {
+  console.log(JSON.stringify(response.data));
+})
+.catch(function (error) {
+  console.log(error);
+});
+
+```
