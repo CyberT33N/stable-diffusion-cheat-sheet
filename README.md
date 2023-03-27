@@ -54,6 +54,8 @@ __________________________________________________________
 - https://youtu.be/QN1vdGhjcRc?t=1006
 - **Not deleted Bots will use aswel credit even if offline**
 
+<br><br>
+
 1. Register
 2. Add credit e.g. 10USD$
 3. Choose 1 x RTX A5000 and click "Deploy"
@@ -72,7 +74,16 @@ python relauncher.py
 ```
 10. The public url for your pod for the webui will stay in the logs at the end
 11. You can set aswell a password with command line args specified in docs
+12. Check e.g. the ## Train section to see how to train a model
 
+
+
+<br><br>
+
+## Dependencies
+```
+pip install tensorflow
+```
 
 
 
@@ -329,6 +340,35 @@ And you're done!
 #### -WaifuDiffusion-
 - https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/wd-1-4-anime_e2.ckpt
   - 	A model trained on heaps of Danbooru images
+
+
+
+
+
+<br><br>
+
+
+## Train
+- https://youtu.be/QN1vdGhjcRc?t=2013
+
+<br><br>
+
+### Dependencies
+```
+pip install tensorflow
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
